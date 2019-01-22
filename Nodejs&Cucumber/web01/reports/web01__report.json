@@ -1,0 +1,94 @@
+[
+  {
+    "description": "<剧本描述>",
+    "keyword": "功能",
+    "name": "<剧本名称>",
+    "line": 2,
+    "id": "<剧本名称>",
+    "tags": [],
+    "uri": "feature1.feature",
+    "elements": [
+      {
+        "id": "<剧本名称>;<场景名称>",
+        "keyword": "场景",
+        "line": 5,
+        "name": "<场景名称>",
+        "tags": [],
+        "type": "scenario",
+        "result": {
+          "duration": 13164,
+          "status": "passed"
+        },
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "..\\x86\\LeanPro\\CukeTest\\resources\\app.asar\\out\\cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "假如",
+            "line": 6,
+            "name": "浏览到搜索网站 \"http://www.bing.com\"",
+            "match": {
+              "location": "step_definitions\\definitions.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 7,
+            "name": "...点击搜索框输入内容，显示所输入的内容 \"web自动化\"",
+            "match": {
+              "location": "step_definitions\\definitions.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "并且",
+            "line": 8,
+            "name": "...点击搜索图标，跳转至搜索结果页面",
+            "match": {
+              "location": "step_definitions\\definitions.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3097000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\x86\\LeanPro\\CukeTest\\resources\\app.asar\\out\\cucumber.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1216000000
+            },
+            "embeddings": [
+              {
+                "data": "file://web01__report/1.png",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

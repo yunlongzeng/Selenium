@@ -1,0 +1,100 @@
+[   INFO] [2019-01-19 16:14:17,066] [6464] [HTMLReport.py(101)] - 预计并发线程数：1
+[  DEBUG] [2019-01-19 16:14:18,131] [6464] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[  DEBUG] [2019-01-19 16:14:18,132] [6464] [connectionpool.py(205)] - Starting new HTTP connection (1): 127.0.0.1:56733
+[  DEBUG] [2019-01-19 16:14:20,208] [6464] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session HTTP/1.1" 200 1001
+[  DEBUG] [2019-01-19 16:14:20,209] [6464] [remote_connection.py(442)] - Finished Request
+[   INFO] [2019-01-19 16:14:20,210] [16132] [Result.py(48)] - 开始测试： test1_login (testcases.unit_test_create.TestStringMethods)
+[  DEBUG] [2019-01-19 16:14:20,281] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/url {"url": "http://39.107.96.138:3000/signin", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:31,857] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/url HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:31,858] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:31,860] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "id", "value": "name", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:31,893] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 103
+[  DEBUG] [2019-01-19 16:14:31,894] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:31,895] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.14599852558695336-1/value {"text": "user19", "value": ["u", "s", "e", "r", "1", "9"], "id": "0.14599852558695336-1", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:31,999] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element/0.14599852558695336-1/value HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:32,000] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:32,000] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "id", "value": "pass", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:32,025] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 103
+[  DEBUG] [2019-01-19 16:14:32,026] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:32,027] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.14599852558695336-2/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "0.14599852558695336-2", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:32,109] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element/0.14599852558695336-2/value HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:32,110] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:32,111] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "class name", "value": "span-primary", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:32,141] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 103
+[  DEBUG] [2019-01-19 16:14:32,142] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:32,143] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.14599852558695336-3/click {"id": "0.14599852558695336-3", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:34,904] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element/0.14599852558695336-3/click HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:34,905] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:34,906] [16132] [remote_connection.py(390)] - GET http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/url {"sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:34,915] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "GET /session/00752c041e1338a91d40f7a346b29d55/url HTTP/1.1" 200 96
+[  DEBUG] [2019-01-19 16:14:34,916] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:34,917] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "css selector", "value": ".user_name>.dark", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:34,948] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 103
+[  DEBUG] [2019-01-19 16:14:34,949] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:34,950] [16132] [remote_connection.py(390)] - GET http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.33322237831228674-1/text {"id": "0.33322237831228674-1", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:34,986] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "GET /session/00752c041e1338a91d40f7a346b29d55/element/0.33322237831228674-1/text HTTP/1.1" 200 76
+[  DEBUG] [2019-01-19 16:14:34,987] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:34,988] [16132] [remote_connection.py(390)] - GET http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/screenshot {"sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:35,425] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "GET /session/00752c041e1338a91d40f7a346b29d55/screenshot HTTP/1.1" 200 136310
+[  DEBUG] [2019-01-19 16:14:35,428] [16132] [remote_connection.py(442)] - Finished Request
+[   INFO] [2019-01-19 16:14:35,462] [16132] [Result.py(106)] - 测试执行通过： test1_login (testcases.unit_test_create.TestStringMethods)
+[   INFO] [2019-01-19 16:14:35,463] [16132] [Result.py(59)] - 测试结束： test1_login (testcases.unit_test_create.TestStringMethods)
+[   INFO] [2019-01-19 16:14:35,463] [16132] [Result.py(61)] - 耗时： 15.181165776
+[   INFO] [2019-01-19 16:14:35,464] [16132] [Result.py(48)] - 开始测试： test2_create (testcases.unit_test_create.TestStringMethods)
+[  DEBUG] [2019-01-19 16:14:35,464] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "css selector", "value": ".span-success", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:35,492] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 103
+[  DEBUG] [2019-01-19 16:14:35,492] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:35,493] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.33322237831228674-2/click {"id": "0.33322237831228674-2", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:38,713] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element/0.33322237831228674-2/click HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:38,716] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:38,716] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "css selector", "value": "#tab-value > option:nth-child(2)", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:38,745] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 102
+[  DEBUG] [2019-01-19 16:14:38,746] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:38,746] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.7758277707142407-1/click {"id": "0.7758277707142407-1", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:38,836] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element/0.7758277707142407-1/click HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:38,837] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:38,838] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "id", "value": "title", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:38,862] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 102
+[  DEBUG] [2019-01-19 16:14:38,862] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:38,863] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.7758277707142407-2/value {"text": "Ivon test selenium", "value": ["I", "v", "o", "n", " ", "t", "e", "s", "t", " ", "s", "e", "l", "e", "n", "i", "u", "m"], "id": "0.7758277707142407-2", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:38,995] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element/0.7758277707142407-2/value HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:38,996] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:38,996] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "css selector", "value": ".CodeMirror-scroll", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:39,026] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 102
+[  DEBUG] [2019-01-19 16:14:39,027] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:39,028] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/moveto {"element": "0.7758277707142407-3", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:39,065] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/moveto HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:39,066] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:39,066] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/click {"button": 0, "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:39,083] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/click HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:39,084] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:39,085] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/keys {"value": ["h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h", "h"], "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:39,229] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/keys HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:39,230] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:39,231] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element {"using": "css selector", "value": ".editor_buttons > input", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:39,272] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element HTTP/1.1" 200 102
+[  DEBUG] [2019-01-19 16:14:39,273] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:39,273] [16132] [remote_connection.py(390)] - POST http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/element/0.7758277707142407-4/click {"id": "0.7758277707142407-4", "sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:43,433] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "POST /session/00752c041e1338a91d40f7a346b29d55/element/0.7758277707142407-4/click HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:43,437] [16132] [remote_connection.py(442)] - Finished Request
+[  DEBUG] [2019-01-19 16:14:43,440] [16132] [remote_connection.py(390)] - GET http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55/screenshot {"sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:43,810] [16132] [connectionpool.py(393)] - http://127.0.0.1:56733 "GET /session/00752c041e1338a91d40f7a346b29d55/screenshot HTTP/1.1" 200 77294
+[  DEBUG] [2019-01-19 16:14:43,812] [16132] [remote_connection.py(442)] - Finished Request
+[   INFO] [2019-01-19 16:14:43,816] [16132] [Result.py(106)] - 测试执行通过： test2_create (testcases.unit_test_create.TestStringMethods)
+[   INFO] [2019-01-19 16:14:43,817] [16132] [Result.py(59)] - 测试结束： test2_create (testcases.unit_test_create.TestStringMethods)
+[   INFO] [2019-01-19 16:14:43,817] [16132] [Result.py(61)] - 耗时： 8.352343616999999
+[  DEBUG] [2019-01-19 16:14:43,819] [6464] [remote_connection.py(390)] - DELETE http://127.0.0.1:56733/session/00752c041e1338a91d40f7a346b29d55 {"sessionId": "00752c041e1338a91d40f7a346b29d55"}
+[  DEBUG] [2019-01-19 16:14:43,860] [6464] [connectionpool.py(393)] - http://127.0.0.1:56733 "DELETE /session/00752c041e1338a91d40f7a346b29d55 HTTP/1.1" 200 72
+[  DEBUG] [2019-01-19 16:14:43,861] [6464] [remote_connection.py(442)] - Finished Request
+[   INFO] [2019-01-19 16:14:46,056] [6464] [HTMLReport.py(130)] - 
+Pass	test1_login (testcases.unit_test_create.TestStringMethods)
+Pass	test2_create (testcases.unit_test_create.TestStringMethods)
+
+[   INFO] [2019-01-19 16:14:46,059] [6464] [HTMLReport.py(151)] - 
+测试结束！
+运行时间: 0:00:28.989658
+共计执行用例数量：2
+执行成功用例数量：2
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：0

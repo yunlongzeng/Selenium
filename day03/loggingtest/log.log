@@ -1,0 +1,8 @@
+WARNING:root:test_upper %s
+WARNING:root:test_upper %s
+WARNING:root:test_upper: %s
+WARNING:root:Protocol problem: %s
+WARNING:root:Protocol problem: test case
+2019-01-19 17:22:26,160 192.168.0.1 user01 test     Protocol problem: test case
+2019-01-19 17:24:04,050 192.168.0.1 user01 test     Protocol problem: connection reset
+2019-01-19 17:24:04,050 192.168.0.1 user01 test     Protocol problem: test case

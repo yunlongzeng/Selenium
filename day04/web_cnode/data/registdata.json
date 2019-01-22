@@ -1,0 +1,23 @@
+{
+    "regist_test_01":{
+        "user_name":"21312312311",
+        "pwd":"123456",
+        "re_pwd":"123456",
+        "email_address":"1DA32321212DAS@qq.com",
+        "status":"True"
+    },
+    "regist_test_02":{
+        "user_name":"213112122312",
+        "pwd":"123456",
+        "re_pwd":"123456",
+        "email_address":"1DAD1212A31S@qq.com",
+        "status":"True"
+    },
+    "regist_test_03":{
+        "user_name":"2131212123",
+        "pwd":"123456",
+        "re_pwd":"123456",
+        "email_address":"1DA12121DAS12@qq.com",
+        "status":"True"
+    }
+}
