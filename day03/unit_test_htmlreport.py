@@ -1,7 +1,5 @@
 import unittest
 import HTMLReport
-
-
 from testcases.unit_test_create import TestStringMethods
 
 import unittest
